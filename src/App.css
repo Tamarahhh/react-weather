@@ -13,3 +13,10 @@
   color: #003;
   padding-top: 30px;
 }
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
