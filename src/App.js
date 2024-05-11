@@ -1,13 +1,24 @@
+import React from "react";
 import Weather from "./Weather";
 import "./App.css";
-import Footer from "./Footer";
 
 export default function App() {
   return (
     <div className="App">
-      <h1>Weather Search Engine</h1>
-      <Weather />
-      <Footer />
+      <div className="container">
+        <Weather defaultCity="Lagos" />
+
+        <footer>
+          <p>
+            {" "}
+            This project was coded by{" "}
+            <a href="https://github.com/Tamarahhh">Tamara Boboye</a> and is on{" "}
+            <a href="https://github.com/Tamarahhh/react-weather">Github</a> and
+            hosted on{" "}
+            <a href="https://chic-platypus-4abf03.netlify.app/">Netlify</a>.
+          </p>
+        </footer>
+      </div>
     </div>
   );
 }
