@@ -27,6 +27,15 @@
   line-height: 19px;
   list-style: none;
 }
+.Weather .btn {
+  background: #000;
+  border: 1px solid #000;
+}
+
+.Weather .search-input {
+  padding: 15px;
+  border: 1px solid;
+}
 
 .Weather .temperature {
   font-weight: bold;
@@ -44,7 +53,7 @@
 
 .Weather .unit {
   color: rgb(33, 33, 33);
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400;
   position: relative;
   line-height: 1;

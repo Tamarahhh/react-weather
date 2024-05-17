@@ -1,7 +1,8 @@
 .App {
+  background: linear-gradient(to top, #b38fe7 0%, #e0b8ef 100%);
   margin: 60px auto;
   padding: 30px;
-  border: 1px solid #2989d8;
+  border: 1px solid #b38fe7;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.4);
   border-radius: 10px;
   max-width: 600px;
@@ -16,6 +17,7 @@
 
 a {
   text-decoration: none;
+  color: #f9f9f9;
 }
 a:hover {
   text-decoration: underline;
